@@ -50,10 +50,14 @@ export const Pricing: React.FC = () => {
             </div>
           </div>
 
-          <Button variant="primary" fullWidth className="max-w-md mx-auto text-xl py-5 shadow-accent/50 animate-pulse">
-            <Download className="mr-2" />
+          <a 
+            href="https://pay.hotmart.com/B103148785F?checkoutMode=2"
+            className="hotmart-fb hotmart__button-checkout inline-flex items-center justify-center px-8 py-4 text-lg font-bold transition-all duration-300 rounded-lg shadow-lg transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-accent text-white hover:bg-accent-dark shadow-accent/30 focus:ring-accent w-full max-w-md mx-auto text-xl py-5 shadow-accent/50 animate-pulse"
+            onClick={(e) => e.preventDefault()}
+          >
+            <Download className="mr-2 w-5 h-5" />
             SIM! QUERO ORGANIZAR MINHA FÉ
-          </Button>
+          </a>
 
           <div className="mt-8 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-center gap-6">
             <div className="flex items-center text-brand-200 text-sm">
